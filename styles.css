@@ -1,17 +1,12 @@
 @-webkit-keyframes unmask {
-  0% {
-    border-color: initial;
+  0%, 100% {
+    box-shadow: inherit;
     background-color: initial;
   }
 
   50% {
-    border-color: green;
-    background-color: rgba(0, 255, 0, 0.5);
-  }
-
-  100% {
-    border-color: initial;
-    background-color: initial;
+    box-shadow: rgba(0, 255, 23, 0.7) 0 0 20px;
+    background-color: rgba(161, 255, 0, 0.1);
   }
 }
 
