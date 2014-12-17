@@ -1,0 +1,20 @@
+@-webkit-keyframes unmask {
+  0% {
+    border-color: initial;
+    background-color: initial;
+  }
+
+  50% {
+    border-color: green;
+    background-color: rgba(0, 255, 0, 0.5);
+  }
+
+  100% {
+    border-color: initial;
+    background-color: initial;
+  }
+}
+
+.unmask-field{
+  -webkit-animation: unmask 1s ease-in-out;
+}
