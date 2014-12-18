@@ -4,5 +4,3 @@ var passwordFields = document.querySelectorAll('input[type="password"]');
   node.classList.add('unmask-field');
   node.type='text';
 });
-
-console.log('Unmasked ' + passwordFields.length + ' fields.');
