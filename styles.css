@@ -10,6 +10,22 @@
   }
 }
 
+@-webkit-keyframes remask {
+  0%, 100% {
+    box-shadow: inherit;
+    background-color: initial;
+  }
+
+  50% {
+    box-shadow: rgba(255, 0, 23, 0.7) 0 0 20px;
+    background-color: rgba(255, 161, 0, 0.1);
+  }
+}
+
 .unmask-field{
   -webkit-animation: unmask 1s ease-in-out;
+}
+
+.remask-field{
+  -webkit-animation: remask 1s ease-in-out;
 }

@@ -11,8 +11,10 @@ function toggleFields(){
   [].forEach.call(passwordFields, function(node){
     if(node.className.indexOf('unmask-field') !== -1){
       node.classList.remove('unmask-field');
+      node.classList.add('remask-field');
       node.type = 'password';
     } else {
+      node.classList.remove('remask-field');
       node.classList.add('unmask-field');
       node.type = 'text';
     }
