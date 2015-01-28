@@ -10,7 +10,7 @@
     "persistent": false
   },
   "browser_action": {
-    "default_icon": "icon-39.png",
+    "default_icon": "unlocked-icon-39.png",
     "default_title": "Unmask passwords"
   },
   "manifest_version": 2,
